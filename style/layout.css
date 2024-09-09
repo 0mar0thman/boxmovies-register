@@ -1,0 +1,82 @@
+.div-header {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+}
+
+.div-header div {
+  width:100%;
+  height: 500px;
+  box-shadow: inset 700px 0px 1100px  rgb(0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.div-header .header-img-org {
+  width: 100%;
+  box-shadow: inset 100px 50px 10px rgb(255, 255, 255);
+  position: absolute;
+  top: -130px;
+  right: -300px;
+}
+
+.div-header .header-img-png {
+  position: absolute;
+  z-index: 1;
+  bottom: 45%;
+  left: 5%;
+  width: 35%;
+  box-shadow: 0 50px 5px rgba(0, 0, 0, 0.3);
+}
+.div-header h4 {
+  z-index: 1;
+  color: white;
+  position: absolute;
+  bottom: 27%;
+  left: 21%;
+  font-family: "Old Standard TT", serif;
+}
+
+ .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px 8px 16px;
+  gap: 8px;
+  height: 40px;
+  width: 128px;
+  border: none;
+  background: #05fa6327;
+  border-radius: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 20px;
+  left: 210px;
+}
+
+.lable {
+  margin-top: 1px;
+  font-size: 19px;
+  line-height: 22px;
+  color: #05fa73;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+ .button:hover .lable{
+  color: #a4ffcd;
+}
+
+.button:hover {
+  background: #056bfa49;
+}
+
+.div-header a {
+  position: absolute;
+  bottom: 27px;
+  left: 380px;
+  text-decoration: none
+   none;color: #05fa73;
+}

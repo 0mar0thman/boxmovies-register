@@ -1,0 +1,222 @@
+.card {
+  z-index: -1;
+}
+@media only screen and (max-width: 575px) {
+  .btn-shine {
+    display: none;
+  }
+  ul li {
+    padding: 5px;
+    text-align: right;
+  }
+
+  .img-logo {
+    width: 50% !important;
+    float: right !important;
+  }
+
+  .img-logo img {
+    width: 80% !important;
+  }
+
+  .form-responsive {
+    width: 100% !important;
+    height: 40px;
+    margin-top: 10px;
+    /* z-index: -1; */
+  }
+
+  .form-responsive .input {
+    width: 100%;
+  }
+
+  .form-responsive #searchResults {
+    overflow-x: hidden;
+  }
+
+  .btn-shine {
+    display: none;
+  }
+
+  .collapse {
+    color: #fff;
+    border-radius: 15px;
+  }
+
+  .div-header {
+    display: none;
+  }
+
+  .card {
+    width: 90% !important;
+    display: block;
+    /* z-index: -1; */
+  }
+
+  .header-responsive {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .swp-total {
+    width: 90% !important;
+    z-index: -1 !important;
+    /* display: none; */
+  }
+
+  .carousel-item img {
+    width: 42% !important;
+    margin-right: 100px !important;
+    z-index: -1;
+  }
+
+  .img1 {
+    width: 30% !important;
+    margin: 5px auto !important;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .flexiblety div h2 {
+    display: inline;
+    font-size: 35px;
+  }
+
+  .flexiblety div button {
+    border-radius: 15px;
+  }
+
+  .bg-div-card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  #popularity,
+  #voteCount,
+  #voteAverage,
+  #releaseDate {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+
+  #popularity .div-card {
+    flex: 1 1 calc(40% - 20px);
+    margin: 5px;
+    box-sizing: border-box;
+  }
+
+  #voteCount .div-card {
+    flex: 1 1 calc(40% - 20px);
+    margin: 5px;
+    box-sizing: border-box;
+  }
+
+  #voteAverage .div-card {
+    flex: 1 1 calc(40% - 20px);
+    margin: 5px;
+    box-sizing: border-box;
+  }
+
+  #releaseDate .div-card {
+    flex: 1 1 calc(40% - 20px);
+    margin: 5px;
+    box-sizing: border-box;
+  }
+
+  .div-card {
+    width: 100%;
+  }
+
+  #nextPopularityButton {
+    /* z-index: 10 !important; */
+    position: relative;
+  }
+
+  #nextPopularityButton:hover,
+  #nextVotePageButton:hover,
+  #nextvoteAverageButton:hover,
+  #nextreleaseDateButton:hover {
+    color: bisque;
+    width: 20%;
+    height: 0;
+    background: none;
+  }
+
+  /* ---------------page movie------------- */
+
+  .containered {
+    /* width: 70% !important; */
+    position: relative;
+    height: 400px;
+    z-index: -1;
+    margin-top: 550px;
+    margin-bottom: -150px;
+  }
+
+  .containered img {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: -950px;
+  }
+
+  .containered .info {
+    position: absolute;
+    transform: translate(-45%, -30%);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100% !important;
+    margin-top: -270px;
+  }
+  .containered .info h1 {
+    color: bisque;
+  }
+  .containered .img-Poster {
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    transform: translate(-60%, -50%);
+    width: 50% !important;
+    display: none;
+  }
+
+  .containered .img-Poster #poster {
+    border-radius: 15px;
+  }
+
+  .containered #videoContainer {
+    width: 90% !important;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
+
+  #videoContainer iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .div-card {
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+
+  a {
+    z-index: 10;
+    position: relative;
+  }
+
+  .button-newMovies {
+    width: 100% !important;
+  }
+}
